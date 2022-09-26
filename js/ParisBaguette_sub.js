@@ -16,12 +16,12 @@ $(function(){
         $window.on('scroll',function(){
             if($window.scrollTop() > sum){
                 $headerCloneBox.addClass('visible');
-                $(".logowhite").attr("src", "../img/paris_baguette_scroll_logo.png");
-                $(".header-search").attr("src", "../img/icons8-search-24-clone.png");
+                $(".logowhite").attr("src", "./img/paris_baguette_scroll_logo.png");
+                $(".header-search").attr("src", "./img/icons8-search-24-clone.png");
             }else{
                 $headerCloneBox.removeClass('visible')
-                $(".logowhite").attr("src", "../img/h_logo_white.png");
-                $(".header-search").attr("src", "../img/icons8-search-24.png");
+                $(".logowhite").attr("src", "./img/h_logo_white.png");
+                $(".header-search").attr("src", "./img/icons8-search-24.png");
             }
         })
 

@@ -221,7 +221,7 @@ a{
         object-fit: cover;
     }
     .header-clone.visible .MR li:last-child{
-        background-image: url(/img/icons8-search-24-clone.png);
+        background-image: url(../img/icons8-search-24-clone.png);
     }
     
     /* 스크롤 헤더 부분 끝*/
